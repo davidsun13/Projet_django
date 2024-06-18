@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+</head>
+<body>
+    <h1>Chatbot</h1>
+    <form method="post">
+        {% csrf_token %}
+        <textarea name="user_input" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Ask">
+    </form>
+    <p>{{ response_text }}</p>
+</body>
+</html>
