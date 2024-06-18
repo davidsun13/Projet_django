@@ -13,7 +13,7 @@ OPENAI_API_KEY = 'your_openai_api_key_here'
 SECRET_KEY = 'django-insecure--c0k&_dnjqzfy6k$lt^y4*9dc_5j_@0mt1_1=2%sjva7b5j+#q'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
